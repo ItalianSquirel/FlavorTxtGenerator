@@ -1,7 +1,8 @@
 
 # 🍭 Flavor Text Generator
 
-![Logo Placeholder](./data/logo.png)
+<img src="./data/logo.png" alt="drawing" width="200"/>
+
 
 Generate fun, quirky, and random flavor texts for your projects! The Flavor Text Generator uses verbs and nouns from customizable text files to create short, imaginative outputs.
 
