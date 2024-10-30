@@ -1,7 +1,7 @@
 
 # 🍭 Flavor Text Generator
 
-![Logo Placeholder](./logo.png)
+![Logo Placeholder](./diagrams/logo.png)
 
 Generate fun, quirky, and random flavor texts for your projects! The Flavor Text Generator uses verbs and nouns from customizable text files to create short, imaginative outputs.
 
@@ -16,14 +16,14 @@ Generate fun, quirky, and random flavor texts for your projects! The Flavor Text
 
 ## 📂 Project Structure
 ```plaintext
-├── data/
-│   ├── verbs.txt
-│   └── nouns.txt
 ├── diagrams/
-│   ├── architecture.png
+│   ├── logo.png
 │   └── workflow.png
-├── main.py
+├── flavorText.py
+├── nouns.txt
+├── verbs.txt
 └── README.md
+
 ```
 
 ---
