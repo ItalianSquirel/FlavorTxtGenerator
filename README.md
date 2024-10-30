@@ -30,7 +30,23 @@ Generate fun, quirky, and random flavor texts for your projects! The Flavor Text
 
 ## ⚙️ How It Works
 
-![Workflow Diagram](./diagrams/workflow.png)
+'''
+                                                                                                 ┌────────────┐         
+                                                                                    ┌────Display─┤Save to File├─────┐   
+                                                                                    │            └────────────┘     │   
+                                                                                    x                               │   
+                                                                                 xx   xx                            │   
+┌─────────┐  ┌─────────┐  ┌──────────────┐  ┌────────────────┐  ┌────────┐      x       x                           ▼   
+│         │  │  Load   │  │ Convert Verb │  │ Randomly Pair  │  │Generate│     x Display x                       ┌─────┐
+│  Start  ├─►│ Verbs & ├─►│              ├─►│                ├─►│        ├──► x    or     x                      │ END │
+│         │  │  Nouns  │  │to "-ing" Form│  │ Verb with Noun │  │ Output │     x  Save   x                       └─────┘
+└─────────┘  └─────────┘  └──────────────┘  └────────────────┘  └────────┘      x       x                           ▲   
+                                                                                 xx   xx                            │   
+                                                                                    x                               │   
+                                                                                    │            ┌────────────────┐ │   
+                                                                                    └────Save────┤Print─to─Console├─┘   
+                                                                                                 └────────────────┘     
+'''
 
 1. **Load Data**: The script reads `verbs.txt` and `nouns.txt`.
 2. **Random Combination**: A verb is modified with "-ing" and paired with a noun.
