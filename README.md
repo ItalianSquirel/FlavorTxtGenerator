@@ -17,8 +17,7 @@ Generate fun, quirky, and random flavor texts for your projects! The Flavor Text
 ## 📂 Project Structure
 ```plaintext
 ├── diagrams/
-│   ├── logo.png
-│   └── workflow.png
+│   └── logo.png
 ├── flavorText.py
 ├── nouns.txt
 ├── verbs.txt
