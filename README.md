@@ -30,7 +30,7 @@ Generate fun, quirky, and random flavor texts for your projects! The Flavor Text
 
 ## ⚙️ How It Works
 
-'''
+```
                                                                                                  ┌────────────┐         
                                                                                     ┌────Display─┤Save to File├─────┐   
                                                                                     │            └────────────┘     │   
@@ -46,7 +46,7 @@ Generate fun, quirky, and random flavor texts for your projects! The Flavor Text
                                                                                     │            ┌────────────────┐ │   
                                                                                     └────Save────┤Print─to─Console├─┘   
                                                                                                  └────────────────┘     
-'''
+```
 
 1. **Load Data**: The script reads `verbs.txt` and `nouns.txt`.
 2. **Random Combination**: A verb is modified with "-ing" and paired with a noun.
